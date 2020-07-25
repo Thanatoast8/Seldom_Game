@@ -43,12 +43,13 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f6181dc41312e0a4692aec3452d73515, type: 3}
-    totalSpriteSurfaceArea: 54528
+    totalSpriteSurfaceArea: 57856
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: -7530462970478713549, guid: ee15dc92e17fa7c45b62b4603c96063f, type: 3}
   - {fileID: 6899325078864286589, guid: 019f2b03c7b448b40889f6037becdbd5, type: 3}
   - {fileID: 2633933121660837781, guid: 019f2b03c7b448b40889f6037becdbd5, type: 3}
   - {fileID: -1794480939968252889, guid: 019f2b03c7b448b40889f6037becdbd5, type: 3}
@@ -156,7 +157,9 @@ SpriteAtlas:
   - {fileID: 4475798069007268075, guid: 019f2b03c7b448b40889f6037becdbd5, type: 3}
   - {fileID: 4482204079666385578, guid: 019f2b03c7b448b40889f6037becdbd5, type: 3}
   - {fileID: -8627574896979770814, guid: 521762e7e55c08a45b713212d8902c09, type: 3}
+  - {fileID: 4510047980999347797, guid: 1707d4dda09c21e4daf9943f10c8e2a6, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Shadow 0
   - Player_Sprite 71
   - Player_Sprite 70
   - Player_Sprite 73
@@ -264,5 +267,6 @@ SpriteAtlas:
   - Player_Sprite 32
   - Player_Sprite 61
   - Sign 0
+  - Tree 0
   m_Tag: MasterSpriteAtals
   m_IsVariant: 0
