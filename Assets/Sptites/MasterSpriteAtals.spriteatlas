@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f6181dc41312e0a4692aec3452d73515, type: 3}
-    totalSpriteSurfaceArea: 65536
+    totalSpriteSurfaceArea: 65792
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -186,6 +186,7 @@ SpriteAtlas:
   - {fileID: 1134508411569925052, guid: c6b8ff731f4c7674481e4ded370defd7, type: 3}
   - {fileID: -5746465488554784155, guid: c6b8ff731f4c7674481e4ded370defd7, type: 3}
   - {fileID: -5105955547117038907, guid: c6b8ff731f4c7674481e4ded370defd7, type: 3}
+  - {fileID: 21300000, guid: 3c06a947946668c5aa4c78ec039cbf81, type: 3}
   - {fileID: -8627574896979770814, guid: 521762e7e55c08a45b713212d8902c09, type: 3}
   - {fileID: 4510047980999347797, guid: 1707d4dda09c21e4daf9943f10c8e2a6, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -326,6 +327,7 @@ SpriteAtlas:
   - Grass_21
   - Grass_22
   - Grass_23
+  - Inv_box
   - Sign 0
   - Tree 0
   m_Tag: MasterSpriteAtals
