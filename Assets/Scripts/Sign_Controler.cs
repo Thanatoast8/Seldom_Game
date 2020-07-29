@@ -12,14 +12,23 @@ public class Sign_Controler : MonoBehaviour {
     public Animator animator;
 
     private void Update() {
-        if (Input.GetButtonDown("Interact") && playerInRange) {
-            if (dialogBox.activeInHierarchy) {
-                Time.timeScale = 1f;
-                dialogBox.SetActive(false);
-            } else {
-                dialogBox.SetActive(true);
-                dialogText.text = dialoge;
-                Time.timeScale = 0f;
+        //THIS IS NOT EFFICIENT YOU SHOULD FIX THIS ASAP
+        //IS THERE A WAY OF DOING THIS OTHER THAN NESTED IFS?
+        if (playerInRange) {
+            if (Input.GetButtonDown("Interact")) {
+                if (dialogBox.activeInHierarchy) {
+                    Time.timeScale = 1f;
+                    dialogBox.SetActive(false);
+                } else {
+                    dialogBox.SetActive(true);
+                    dialogText.text = dialoge;
+                    Time.timeScale = 0f;
+                }
+            } else if (Input.GetButtonDown("Cancel")) {
+                if (dialogBox.activeInHierarchy) {
+                    Time.timeScale = 1f;
+                    dialogBox.SetActive(false);
+                }
             }
         }
     }
@@ -32,10 +41,9 @@ public class Sign_Controler : MonoBehaviour {
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-        if (collision.CompareTag("Player")){
+        if (collision.CompareTag("Player")) {
             animator.SetTrigger("Exiting");
             playerInRange = false;
-            dialogBox.SetActive(false);
         }
     }
 }

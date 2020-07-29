@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f6181dc41312e0a4692aec3452d73515, type: 3}
-    totalSpriteSurfaceArea: 128512
+    totalSpriteSurfaceArea: 130560
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -204,6 +204,10 @@ SpriteAtlas:
   - {fileID: 2633104739220507662, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
   - {fileID: 3546426857557364520, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
   - {fileID: 4510047980999347797, guid: 1707d4dda09c21e4daf9943f10c8e2a6, type: 3}
+  - {fileID: 795388003358902265, guid: 918cbf7f9fa1e3b4db56ea7e293bc49d, type: 3}
+  - {fileID: 5857901604384514987, guid: 918cbf7f9fa1e3b4db56ea7e293bc49d, type: 3}
+  - {fileID: -2764437026328877647, guid: 918cbf7f9fa1e3b4db56ea7e293bc49d, type: 3}
+  - {fileID: -9064745430753170617, guid: 918cbf7f9fa1e3b4db56ea7e293bc49d, type: 3}
   - {fileID: 21300000, guid: b3242ffff04140a4fb8e062cb7bc6a52, type: 3}
   m_PackedSpriteNamesToIndex:
   - Shadow 0
@@ -361,6 +365,10 @@ SpriteAtlas:
   - Interact_Cloud 9
   - Interact_Cloud 8
   - Tree 0
+  - Old_Man 3
+  - Old_Man 2
+  - Old_Man 1
+  - Old_Man 0
   - Inv_slot
   m_Tag: MasterSpriteAtals
   m_IsVariant: 0

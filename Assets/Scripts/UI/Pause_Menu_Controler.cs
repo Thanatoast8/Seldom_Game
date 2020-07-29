@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Pause_Menu_Controler : MonoBehaviour
-{
+public class Pause_Menu_Controler : MonoBehaviour {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
 
-    void Update()
-    {
+    void Update() {
         if (Input.GetButtonDown("Cancel")) {
             if (GameIsPaused) {
                 Resume();
