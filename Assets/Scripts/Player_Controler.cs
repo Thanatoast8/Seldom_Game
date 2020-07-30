@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Player_Controler : MonoBehaviour {
 
@@ -26,6 +27,9 @@ public class Player_Controler : MonoBehaviour {
     }
 
     private void FixedUpdate() {
+        if (EventSystem.current.IsPointerOverGameObject()) {
+            return;
+        }
         ProcessInputs();
         Move();
         Animate();

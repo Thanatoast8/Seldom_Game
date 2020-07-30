@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f6181dc41312e0a4692aec3452d73515, type: 3}
-    totalSpriteSurfaceArea: 130560
+    totalSpriteSurfaceArea: 131072
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -192,7 +192,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 353c7fa64b0f1a14986cec28004dc703, type: 3}
   - {fileID: -8627574896979770814, guid: 521762e7e55c08a45b713212d8902c09, type: 3}
   - {fileID: 21300000, guid: ded5508856f2c2d4ba873ad3b17f8364, type: 3}
+  - {fileID: 21300000, guid: cc5e6f6b97bf1d84b9631d57a9b9698e, type: 3}
   - {fileID: 21300000, guid: ff00fc9bb1a417a46982b1fda7663aeb, type: 3}
+  - {fileID: 21300000, guid: f342420cb7654fc45b65ac206242810d, type: 3}
   - {fileID: -8553071103690739655, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
   - {fileID: 7598368618671020453, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
   - {fileID: -1136344363956953600, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
@@ -353,7 +355,9 @@ SpriteAtlas:
   - Inv_box
   - Sign 0
   - Leaf
+  - Potato
   - Empty
+  - Leaf
   - Interact_Cloud 3
   - Interact_Cloud 2
   - Interact_Cloud 1
