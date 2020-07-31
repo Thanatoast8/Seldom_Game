@@ -1,5 +1,5 @@
 ## SELDOM README
-This game is basically a tech demo. It was made for creator week //LINK
+This game is basically a tech demo. It was made for creator week https://naoamaya.tumblr.com/post/622525685827862528/naoamaya-creator-week-24th-31st-july-hello <br>
 THIS IS NOT A COMPLETE GAME. It will never be. This was made just to see if I can make a working prototype in a week.
 
 All of the art assets, UI elements and Code was made by me.
