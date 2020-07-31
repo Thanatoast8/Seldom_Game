@@ -7,7 +7,7 @@ I am releasing this, along with the source code under the MIT licence. I don't h
 
 ## How to Run
 Download the relase found to the right of this pannel, ~~unless github decided to change its layout. In which case you're on your own.~~ Extract the folder using your favorite program of choice (mine is Windows Explorer) and run Seldom.exe.
-If your antivirus gets annoyed at it ~~(mine did)~~ click "run anyway". If I knew how to make a virus I wouldn't be making self depreciating jokes in a readme for a game. Don't belive me? You can read the source ~~spaggetti~~ code.
+If your antivirus gets annoyed at it ~~(mine did)~~ click "run anyway". If I knew how to make a virus I wouldn't be making self depreciating jokes in a readme for a game. Don't belive me? You can read the source ~~spaghetti~~ code.
 
 ## Gameplay
 ~~There is almost none.~~
