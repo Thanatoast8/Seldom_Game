@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: f6181dc41312e0a4692aec3452d73515, type: 3}
-    totalSpriteSurfaceArea: 131072
+    totalSpriteSurfaceArea: 139008
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -190,6 +190,36 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 720ea7069b3b5fcf48f6252190f3fc67, type: 3}
   - {fileID: 21300000, guid: 6f7ac6664668be749926c1a61718bfb1, type: 3}
   - {fileID: 21300000, guid: 353c7fa64b0f1a14986cec28004dc703, type: 3}
+  - {fileID: -8229564565927928410, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 998972469497598993, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 8359681528587929580, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -6382272497263786629, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 4555579745618328813, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 192064992739251819, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 5993757573579497255, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -1407875944270617158, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -762372822985216690, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -8935849185470497194, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -344887077239055021, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -1885552802323401521, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 7570968823623598630, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 5629653030408117143, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -5615620597670010830, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -2744317133548807957, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -7130942294811270468, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -1264073250326271927, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 5494777924007735719, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 142939767269245008, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -5347157690346736822, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 6855879029839002144, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -1533186177427811952, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -8214289246587544858, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -2136292341753782122, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 518483385824788672, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -565997115686218164, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 2747382312507792459, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: -1826960350631459026, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
+  - {fileID: 1555646796115340215, guid: 6b8d3207bda36e941a3b4d451b49b4a8, type: 3}
   - {fileID: -8627574896979770814, guid: 521762e7e55c08a45b713212d8902c09, type: 3}
   - {fileID: 21300000, guid: ded5508856f2c2d4ba873ad3b17f8364, type: 3}
   - {fileID: 21300000, guid: cc5e6f6b97bf1d84b9631d57a9b9698e, type: 3}
@@ -205,6 +235,7 @@ SpriteAtlas:
   - {fileID: 2519762062888106040, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
   - {fileID: 2633104739220507662, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
   - {fileID: 3546426857557364520, guid: 0223256d628bca448bc544d9c1022da5, type: 3}
+  - {fileID: 21300000, guid: 3e8a26bd26d53fc408c1020ec0585d53, type: 3}
   - {fileID: 4510047980999347797, guid: 1707d4dda09c21e4daf9943f10c8e2a6, type: 3}
   - {fileID: 795388003358902265, guid: 918cbf7f9fa1e3b4db56ea7e293bc49d, type: 3}
   - {fileID: 5857901604384514987, guid: 918cbf7f9fa1e3b4db56ea7e293bc49d, type: 3}
@@ -353,6 +384,36 @@ SpriteAtlas:
   - Potato
   - Main_Menu_BackDrop
   - Inv_box
+  - coin 4
+  - coin 5
+  - coin 6
+  - coin 7
+  - coin 0
+  - coin 1
+  - coin 2
+  - coin 3
+  - coin 8
+  - coin 9
+  - coin 19
+  - coin 18
+  - coin 17
+  - coin 16
+  - coin 15
+  - coin 14
+  - coin 13
+  - coin 12
+  - coin 11
+  - coin 10
+  - coin 22
+  - coin 23
+  - coin 20
+  - coin 21
+  - coin 26
+  - coin 27
+  - coin 24
+  - coin 25
+  - coin 28
+  - coin 29
   - Sign 0
   - Leaf
   - Potato
@@ -368,6 +429,7 @@ SpriteAtlas:
   - Interact_Cloud 4
   - Interact_Cloud 9
   - Interact_Cloud 8
+  - coin
   - Tree 0
   - Old_Man 3
   - Old_Man 2

@@ -7,17 +7,7 @@ public class Main_Menu_Controler : MonoBehaviour {
 
     public GameObject OptionsMenu;
     public GameObject MainMenu;
-    public bool IsInOptions;
-
-    // Start is called before the first frame update
-    void Start() {
-
-    }
-
-    // Update is called once per frame
-    void Update() {
-
-    }
+    public bool IsInOptions = false;
 
     public void loadGame() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -30,8 +20,8 @@ public class Main_Menu_Controler : MonoBehaviour {
 
     public void Options() {
         if (IsInOptions) {
-            OptionsMenu.SetActive(false);
             MainMenu.SetActive(true);
+            OptionsMenu.SetActive(false);
             IsInOptions = false;
         } else {
             OptionsMenu.SetActive(true);

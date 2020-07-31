@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92776c135f7442f41ac9a4adf9193eab, type: 3}
   m_Name: Old_Man
   m_EditorClassIdentifier: 
-  value: {fileID: 4900000, guid: 0be0ec5cf4f6a4a468e0687a6fe092ae, type: 3}
+  value: {fileID: 4900000, guid: d1a1faada84152a45ae75f514a5b001c, type: 3}

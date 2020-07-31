@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Ink.Runtime;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class Item : ScriptableObject

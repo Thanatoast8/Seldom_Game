@@ -23,6 +23,8 @@ public class Inventory : MonoBehaviour {
 
 
     public int space = 18;
+    public int coin = 0;
+
 
     public List<Item> items = new List<Item>();
 

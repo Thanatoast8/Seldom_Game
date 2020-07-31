@@ -24,7 +24,8 @@ public class NPC_Controler : MonoBehaviour
                     Time.timeScale = 1f;
                     dialogBox.SetActive(false);
                 } else {
-                    dialogValue.value = dialog;
+                    //dialogValue.value = dialog;
+                    
                     dialogBox.SetActive(true);
                     
                     Time.timeScale = 0f;

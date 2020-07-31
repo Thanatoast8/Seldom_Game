@@ -16,6 +16,11 @@ public class Dynamic_Dialogue_Controler : MonoBehaviour {
     [SerializeField] private GameObject choiceHolder;
     [SerializeField] private ScrollRect dialogScroll;
     [SerializeField] private Story story;
+    [SerializeField] private Inventory inventory;
+
+
+    public Item potato;
+    public Item leaf;
 
     void Start() {
 
@@ -38,6 +43,15 @@ public class Dynamic_Dialogue_Controler : MonoBehaviour {
         } else {
             Debug.LogError("Failed to set Story");
         }
+        story.BindExternalFunction("removePotato", () => {
+            _ = inventory.items.Remove(potato);
+        });
+        story.BindExternalFunction("removeLeaf", () => {
+            _ = inventory.items.Remove(leaf);
+        });
+        story.BindExternalFunction("addCoinToPlayer", (int coin) => {
+            inventory.coin += coin;
+        });
     }
 
     void DeleteOldDialogs() {
@@ -48,6 +62,12 @@ public class Dynamic_Dialogue_Controler : MonoBehaviour {
 
     public void RefreshView() {
         while (story.canContinue) {
+            if (inventory.items.Contains(potato)) {
+                story.variablesState["potato"] = true;
+            }
+            if (inventory.items.Contains(leaf)) {
+                story.variablesState["leaf"] = true;
+            }
             makeNewDialog(story.Continue());
             CreateChoices();
         }
@@ -55,7 +75,7 @@ public class Dynamic_Dialogue_Controler : MonoBehaviour {
             canvas.SetActive(false);
 
         }
-        StartCoroutine(ScrollCo());
+//      StartCoroutine(ScrollCo());
     }
 
     IEnumerator ScrollCo() {
