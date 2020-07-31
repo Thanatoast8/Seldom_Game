@@ -22,7 +22,7 @@ Keyboard:
 * Q - Open inventory
 * Esc - Open pause menu
 
-Controler:
+Controller:
 * NOTE - I have not implemented a way for a controler to navigate the UI. You're going to have to use a mouse.
 * NOTE#2 - I've only tested this with a Xbox One controller. Don't yell at me if your ps4 or switch controler doesn't work. 
 * Left stick - move
@@ -32,7 +32,7 @@ Controler:
 
 ## FAQ
 Why can't I see all the dialog?
-* You see those white bars off to the side? Those are scroll bars. You can scroll them. Click and drag, scrolwheel, whatever.
+* You see those white bars off to the side? Those are scroll bars. You can scroll them. Click and drag, scroll wheel, whatever.
 
 Where are my Mac/Linux/Insert other OS here Releases?
 * Couldn't be bothered to install the build support for anything other than windows. (I tried windows universal development platform before realising you need a licence) You can probably clone the project and build it yourslef.
